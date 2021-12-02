@@ -2,7 +2,7 @@ version: '3.8'
 services:
   app:
     image: annastasyaivory/kuis2
-    container_name: php:apache
+    container_name: php-apache
     depends_on:
       - db
     volumes:
